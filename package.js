@@ -1,22 +1,20 @@
 Package.describe({
   name: 'girassolbit:materialize-stylus',
   version: '0.0.1',
-  // Brief, one-line summary of the package.
-  summary: '',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  summary: 'A Meteor package that adds Materialize with Stylus in your Application',
+  git: 'https://github.com/girassolbit/meteor-materialize-stylus.git',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('METEOR@1.1.0.2');
   api.addFiles('materialize-stylus.js');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('girassolbit:materialize-stylus');
-  api.addFiles('materialize-stylus-tests.js');
-});
+
+//
+// Package.onTest(function(api) {
+//   api.use('tinytest');
+//   api.use('girassolbit:materialize-stylus');
+//   api.addFiles('materialize-stylus-tests.js');
+// });
