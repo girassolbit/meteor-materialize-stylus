@@ -1,5 +1,4 @@
 ## Meteor Materialize Stylus
-----
 A Meteor package that adds Materialize with Stylus in your Application
 
 ### Installation
